@@ -1,0 +1,57 @@
+.stickyNote.selected {
+  outline: 3px solid #FFE6C2;
+  /* You can adjust color and thickness as needed */
+}
+*{
+  color: #000A14;
+  box-sizing: border-box;
+  font-family: "forma-djr-text", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.toolBar{
+  width: 300px;
+  height: 50px;
+  padding: 16px;
+  background-color: #FFF1DD;
+}
+
+.stickyNote{
+  top: 0px;
+  left: 0px;
+
+  width: fit-content;
+  height: fit-content;
+  background-color: #FFF1DD;
+  border-radius: 8px;
+  cursor: move;
+  position: absolute;
+}
+
+.stickyNote:hover{
+  background-color: #FFE6C2;
+}
+
+#stickyNoteText{
+  padding: 16px;
+  outline: none;
+  background-color: #FFF1DD00;
+  min-width: 100px;
+  cursor: pointer;
+  border: none;
+  resize: none;
+  overflow: hidden;
+}
+
+.txt-btn{
+  padding: 16px;
+  background-color: #FFF1DD;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.txt-btn:hover{
+  background-color: #FFE6C2;
+}
